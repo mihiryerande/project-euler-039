@@ -30,6 +30,8 @@ def main(n):
               * Perimeter `p` (≤ `n`) having max number of integer right triangles
               * List of triangles by sides (a,b,c)
     """
+    assert type(n) == int and n >= 12
+
     # Keep track of known triangles
     triangles = defaultdict(lambda: [])
 
