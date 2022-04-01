@@ -29,6 +29,9 @@ def main(n):
             Tuple of...
               * Perimeter `p` (≤ `n`) having max number of integer right triangles
               * List of triangles by sides (a,b,c)
+
+    Raises:
+        AssertError: if incorrect args are given
     """
     assert type(n) == int and n >= 12
 
