@@ -1,4 +1,7 @@
-# Project Euler - Problem 39 - Integer Right Triangles
+# Project Euler
+
+## Problem 39 - Integer Right Triangles
+
 If `p` is the perimeter of a right angle triangle with integral length sides, `{a,b,c}`, there are exactly three solutions for `p = 120`.
 
     { 20, 48, 52 },
