@@ -13,9 +13,10 @@
 
 from collections import defaultdict
 from math import sqrt
+from typing import List, Tuple
 
 
-def main(n):
+def main(n: int) -> Tuple[int, List[Tuple[int, int, int]]]:
     """
     Returns the perimeter `p` (≤ `n`) for which
       the number of integer right triangles is maximized.,
